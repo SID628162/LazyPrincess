@@ -39,7 +39,7 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://srijandas9051:uauTMWecolwTSi5q@sdpoint.9wozh52.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sid628162:bgTwojGPtbBtRg0L@sdmovie.qx3o2yi.mongodb.net/?retryWrites=true&w=majority&appName=SDMovie")
 DATABASE_NAME = environ.get('DATABASE_NAME', "SDPoint")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
